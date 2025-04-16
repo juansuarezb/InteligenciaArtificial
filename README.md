@@ -9,9 +9,9 @@
 >   
 > **1. ¿QUÉ ES IA?**  
 > *La IA es una **disciplina científica**, con un conjunto de conceptos, problemas y métodos para resolver los problemas.*  
-> *Tiene como objetivo el crear procesos de la mente y su conexión con el cuerpo a través de la metáfora computacional.*  
-> *Habría que hacer una relación de las características de la IA: **AUTONOMÍA Y ADAPTABILIDAD**.*  
->  
+> *Tiene como objetivo el crear procesos de la mente y su conexión con el cuerpo a través de la metáfora computacional.*
+> *La IA es la simulación de procesos de inteligencia humana por parte de máquinas especialmente con sistemas informaticos*  
+> *Habría que hacer una relación de las características de la IA: **AUTONOMÍA Y ADAPTABILIDAD**.*   
 > <div align="center">
 >   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/Imagen1.avif" alt="Imagen de IA" width="85%">   
 > </div>
@@ -51,3 +51,14 @@
 >     <img src="https://img.youtube.com/vi/5rvZBsueMoc/0.jpg" alt="Ver video en YouTube" width="70%">
 >   </a>
 > </p>
+
+> [!NOTE]
+> ### 🤖 ¿Qué incluye la IA?
+> 1. **Aprendizaje** (adquisición de reglas)  
+> 2. **Razonamiento** (uso de reglas)  
+> 3. **Percepción**  
+>
+> ### ⚙️ ¿Cómo funciona la IA?
+> 1. Requiere grandes cantidades de datos *(Sin datos no hay IA)*  
+> 2. Proceso rápido e iterativo con algoritmos inteligentes  
+> 3. Aprendizaje automático mediante patrones
