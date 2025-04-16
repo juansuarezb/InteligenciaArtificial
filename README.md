@@ -36,9 +36,18 @@
 > En 1950 Turing (padre de la IA) inició su articulo *Computing machinery and Intelligene* formulando la pregunta: **¿Las máquinas pueden pensar?** <br>
 > **Generalizacion en Aprendizaje automático:** *capacidad de un modelo para aplicar lo que ha aprendido a datos nuevos, no vistos anteriormente.* <br>
 > <div align="center">
->   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/Imagen2.avif" alt="Imagen de IA" width="85%">   
+>   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/Imagen2.avif" alt="Imagen de IA" width="85%">
+>  <p>TimeLine del desarrollo de la IA</p>           
 > </div>
 > <div align="center">
 >   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/Imagen3.avif" alt="Imagen de Eliza" width="85%">
 >   <p>Interfaz por consola de Eliza</p>            
 > </div>
+
+> [!IMPORTANT]
+> **VER EL SIGUIENTE VIDEO**
+> <p align="center">
+>   <a href="https://www.youtube.com/watch?v=5rvZBsueMoc" target="_blank">
+>     <img src="https://img.youtube.com/vi/5rvZBsueMoc/0.jpg" alt="Ver video en YouTube" width="70%">
+>   </a>
+> </p>
