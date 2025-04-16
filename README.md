@@ -62,3 +62,9 @@
 > 1. Requiere grandes cantidades de datos *(Sin datos no hay IA)*  
 > 2. Proceso rápido e iterativo con algoritmos inteligentes  
 > 3. Aprendizaje automático mediante patrones
+
+> [!NOTE]
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/Imagen4.avif" alt="Ramas de la IA" width="85%">
+>   <p>Ramas de la IA</p>            
+> </div>
