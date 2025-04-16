@@ -3,6 +3,7 @@
 <h1>PROFESOR :  MAURICIO LOACHAMIN</h1> 
 <h2>CÓDIGO: ISWD543</h2>
 <h2>GRUPO: </h2>
+<h2>NUMERO: 0960464096 </h2>
 
 <details>
 <summary>📂 Capítulo 1: Inteligencia Artificial</summary>
