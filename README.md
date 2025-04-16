@@ -38,3 +38,7 @@
 > <div align="center">
 >   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/Imagen2.avif" alt="Imagen de IA" width="85%">   
 > </div>
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/Imagen3.avif" alt="Imagen de Eliza" width="85%">
+>   <p>Interfaz por consola de Eliza</p>            
+> </div>
