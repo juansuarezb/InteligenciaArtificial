@@ -2,54 +2,24 @@
 > ## CLASE 1
 > ## 15/04/2025
 
-> ### 📘 Índice de Temas de Inteligencia Artificial
->
-> ```
-> 📂capitulo1: inteligencia artificial  
-> 📂capitulo2:resolucion de problemas mediante busquedas /  
-> └── busquedas sin informacion  
-> └── busquedas con informacion  
-> └── busquedas locales y problemas de optimizacion(asc, de colinas, temple simulado, alg. geneticos)  
-> └── busquedas con adversarios(minimax y poda alfa-beta)  
-> 📂capitulo3:agentes logicos  
-> └── Agentes basados en conocimiento  
-> └── el mundo de wumpus  
-> └── agente logico  
-> └── reglas de inferencia  
-> └── verificacion de modelos e inferencia  
-> └── prueba de teoremas y validacion por resolucion  
-> └── conversion a fnc y algoritmo de resolucion  
-> └── encadenamiento hacia adelante y hacia atras  
-> └──  
-> 📂capitulo4:fundamentos del aprendizaje de maquina  
-> └── Introduccion al problema de aprenfizaje: planteamiento del problema y ejemplos  
-> └── problemas de machine learning: clasificacion, regresion y clustering  
-> └── conjutnos de entrenamiento, validazion y testeo (hold out)  
-> └── prepocesamiento y postporcesamiento (normalizacion, regularizacion)  
-> └── generalizacion, underfitting, overfitting y la maldicion de la dimensionalidad  
-> └── taxonomia del aprendizaje de maquina: aprendizaje supersivado, no supervisado y con refuerzo  
-> 📂capitulo5:aprendizaje supervsiado  
-> └── estimacion de error y analisis de resultados: cross-validation, matriz de confusion y curva ROC  
-> └── Algoritmos no parametricos: naive bayes, knn y arboles de decision  
-> └── algoritmos parametricos: redes neuronales aritificiales  
-> 📂capitulo6:aprendizaje no supervisado  
-> └── algoritmo para reduccion de dimension (PCA)  
-> └── clustering: k-means  
-> └── clustering: self-organization maps  
-> 📂capitulo7:aprendizaje por refuerzo  
-> └── principios generales del aprendizaje por refuerzo  
-> └── algoritmos principales de aprendizaje por refuerzo  
-> ```
 
             
 > [!TIP]
-> **TAREA 1: INVESTIGAR SOBRE LOS CONCEPTOS DE:** <br>
-> **¿QUE ES IA?** <br>
-> *La IA es una disciplina científica, con un conjunto de conceptios, problemas y métodos para resolver los problemas.* <br>
-> *Habria que hacer una relación de las características de la IA: **AUTONOMIA Y ADAPTABILIDAD**.* <br>
-> **¿QUE ES EL MACHINE LEARNING (APRENDIZAJE AUTOMATICO)?** <br>
-> *El aprendizaje automático es un subcampo de la IA y hace posible obtener soluciones de IA adaptables* <br>
-> **DEFINICIÓN:** Sistemas que van mejorando la manera en que ejecutan una tarea dada a medida que acumulan experiencia o datos.
+> **TAREA 1: INVESTIGAR SOBRE LOS CONCEPTOS DE:**  
+>   
+> **1. ¿QUÉ ES IA?**  
+> *La IA es una **disciplina científica**, con un conjunto de conceptos, problemas y métodos para resolver los problemas.*  
+> *Tiene como objetivo el crear procesos de la mente y su conexión con el cuerpo a través de la metáfora computacional.*  
+> *Habría que hacer una relación de las características de la IA: **AUTONOMÍA Y ADAPTABILIDAD**.*  
+>  
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/Imagen1.avif" alt="Imagen de IA" width="85%">   
+> </div>
+>  
+> **2. ¿QUÉ ES EL MACHINE LEARNING (APRENDIZAJE AUTOMÁTICO)?** <br>
+> *El aprendizaje automático es un subcampo de la IA y hace posible obtener soluciones de IA adaptables.*  <br> 
+> **DEFINICIÓN:** *Sistemas que van mejorando la manera en que ejecutan una tarea dada a medida que acumulan experiencia o datos.* <br> 
+> **Estudia como dotar a las maquinas de capacidad de aprendizaje. basandose en algoritmos capaces de identificar patrones en grandes BD y aprender de ellos.**
 
 
 > [!TIP]
@@ -60,5 +30,11 @@
 > ## CLASE 2
 > ## 16/04/2025
 
-> [!NOTE]
-> Hola mundo
+> [!TIP]
+> *Según la RAE se define la inteligencia como: la capacidad de entender, comprender, razonar o resolver problemas*
+> **Historia de la IA** <br>
+> En 1950 Turing (padre de la IA) inició su articulo *Computing machinery and Intelligene* formulando la pregunta: **¿Las máquinas pueden pensar?** <br>
+> **Generalizacion en Aprendizaje automático:** *capacidad de un modelo para aplicar lo que ha aprendido a datos nuevos, no vistos anteriormente.* <br>
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/Imagen2.avif" alt="Imagen de IA" width="85%">   
+> </div>
