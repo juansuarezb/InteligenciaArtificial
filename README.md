@@ -1,20 +1,6 @@
-# Inteligencia Artificial y aprendizaje automatico
-
 > [!NOTE]
-> CODIGO: ISWD543
 > ## CLASE 1
 > ## 15/04/2025
-> MAURICIA LOACHAMIN <br>
-> 5 objetivos en la carrera
-
-PEA: 
-AGENTES INTELIGENTES
-BUSQUEDAS DE SOLUCIONES
-SATISFACCION DE REESTRICCIONES
-INFERENCIA LOGICA
-RAZONAMIENTO PROBABILISTA
-APRENDIZAJE AUTOMATICO Y NO SUPERVISADO
-
 
 ```
 📂capitulo1: inteligencia artificial
@@ -53,9 +39,17 @@ APRENDIZAJE AUTOMATICO Y NO SUPERVISADO
 └── algoritmos principales de aprendizaje por refuerzo
 ```
 
-##tarea1: en la biblioteca buscar los libros sobre IA (listado) (pedir el libro fisico y verificar el año de edicion, los capitulos del libro)##
+            
+> [!NOTE]
+> **TAREA 1: INVESTIGAR SOBRE LOS CONCEPTOS DE:** <br>
+> **¿QUE ES IA?** <br>
+> *La IA es una disciplina científica, con un conjunto de conceptios, problemas y métodos para resolver los problemas.* <br>
+> *Habria que hacer una relación de las características de la IA: **AUTONOMIA Y ADAPTABILIDAD**.* <br>
+> **¿QUE ES EL MACHINE LEARNING (APRENDIZAJE AUTOMATICO)?** <br>
+> *El aprendizaje automático es un subcampo de la IA y hace posible obtener soluciones de IA adaptables* <br>
+> **DEFINICIÓN:** Sistemas que van mejorando la manera en que ejecutan una tarea dada a medida que acumulan experiencia o datos.
 
 
 > [!NOTE]
-> **¿QUE ES IA?**
-> **¿QUE ES EL MACHINE LEARNING (APRENDIZAJE AUTOMATICO)**
+> **TAREA 2: en la biblioteca buscar los libros sobre IA (listado) (pedir el libro fisico y verificar el año de edicion, los capitulos del libro)** <br>
+
