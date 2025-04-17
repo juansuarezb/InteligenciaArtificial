@@ -1,15 +1,17 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Brain.png" alt="Brain" width="100" height="100" />
-  <h1>Inteligencia Artificial y Aprendizaje Automático</h1>
-<p>
+
+  <h1>Inteligencia Artificial y Aprendizaje Automático 2025-A</h1>
+  <h2>Ingeniería de software (GR1)</h2>
+
+  <!-- Badges -->
+  <p>
     <a href="https://github.com/juansuarezb/InteligenciaArtificial/stargazers">
       <img alt="Stars" src="https://img.shields.io/github/stars/juansuarezb/InteligenciaArtificial?style=social" />
     </a>
     <a href="https://github.com/juansuarezb/InteligenciaArtificial/network/members">
       <img alt="Forks" src="https://img.shields.io/github/forks/juansuarezb/InteligenciaArtificial?style=social" />
     </a>
-</p>
-
+  </p>
 </div>
 
 > [!IMPORTANT]
