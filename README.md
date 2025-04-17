@@ -2,10 +2,10 @@
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Brain.png" alt="Brain" width="100" height="100" />
   <h1>Inteligencia Artificial y Aprendizaje Automático</h1>
   <p>
-    <a href="https://github.com/yourusername/your-repo/stargazers">
+    <a href="https://github.com/juansuarezb/InteligenciaArtificial/stargazers">
       <img alt="Stars" src="https://img.shields.io/github/stars/yourusername/your-repo?style=social" />
     </a>
-    <a href="https://github.com/yourusername/your-repo/network/members">
+    <a href="https://github.com/juansuarezbInteligenciaArtificial/network/members">
       <img alt="Forks" src="https://img.shields.io/github/forks/yourusername/your-repo?style=social" />
     </a>
   </p>
@@ -96,7 +96,3 @@
 - Algoritmos principales de aprendizaje por refuerzo  
 </details>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Raising%20Hands.png" alt="Raising Hands" width="100" height="100" />
-  <p>¡Bienvenido al fascinante mundo de la Inteligencia Artificial!</p>
-</div>
