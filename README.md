@@ -12,27 +12,10 @@
 
 </div>
 
-<div align="center">
-  <h2>📚 Información del Curso</h2>
-  <table>
-    <tr>
-      <td><strong>Profesor:</strong></td>
-      <td>Mauricio Loachamin</td>
-    </tr>
-    <tr>
-      <td><strong>Código:</strong></td>
-      <td>ISWD543</td>
-    </tr>
-    <tr>
-      <td><strong>Grupo:</strong></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><strong>Contacto:</strong></td>
-      <td>0960464096</td>
-    </tr>
-  </table>
-</div>
+> [!IMPORTANT]
+> | Información del Curso | Horario de Clases |
+> |-----------------------|-------------------|
+> | **Profesor:** Mauricio Loachamin <br> **Código:** ISWD543 <br> **Grupo:** GR1SW <br> **Contacto:** 0960464096 | **Martes:** 16:00-18:00 <br> **Miércoles:** 16:00-18:00 <br> **Jueves:** 16:00-18:00 |
 
 ## 🚀 Guía de Uso
 > [!TIP] 
