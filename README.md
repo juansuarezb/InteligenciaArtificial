@@ -17,7 +17,7 @@
 > |-----------------------|-------------------|
 > | **Profesor:** Mauricio Loachamin <br> **Código:** ISWD543 <br> **Grupo:** GR1SW <br> **Contacto:** 0960464096 | **Martes:** 16:00-18:00 <br> **Miércoles:** 16:00-18:00 <br> **Jueves:** 16:00-18:00 |
 
-## 🚀 Guía de Uso
+
 > [!TIP] 
 > Cómo utilizar este repositorio
 > 1. **Navega por las ramas:** Haz clic en los enlaces de cada sección para acceder al contenido específico de esa parte del curso.
