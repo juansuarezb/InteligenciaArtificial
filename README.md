@@ -34,7 +34,7 @@
   </table>
 </div>
 
-## 🚀 Guía de Uso
+
 > [!TIP] 
 > Cómo utilizar este repositorio
 > 1. **Navega por las ramas:** Haz clic en los enlaces de cada sección para acceder al contenido específico de esa parte del curso.
