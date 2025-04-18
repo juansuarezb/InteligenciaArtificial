@@ -77,5 +77,5 @@
 
 
 > <div align="center">
->   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/ImagenIA.avif" alt="Imagen de IA" width="85%">   
+>   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/prompt.jpg" alt="Imagen de IA" width="85%">   
 > </div>
