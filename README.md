@@ -74,3 +74,8 @@
 >   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/Imagen5.avif" alt="Ramas de la IA" width="85%">
 >   <p>Aplicaciones del machine Learning</p>            
 > </div>
+
+
+> <div align="center">
+>   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/ImagenIA.avif" alt="Imagen de IA" width="85%">   
+> </div>
