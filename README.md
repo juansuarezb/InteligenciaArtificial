@@ -74,8 +74,9 @@
 >   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/Imagen5.avif" alt="Ramas de la IA" width="85%">
 >   <p>Aplicaciones del machine Learning</p>            
 > </div>
-
-
 > <div align="center">
->   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/prompt.jpg" alt="Imagen de IA" width="85%">   
+> <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/prompt.jpg" alt="Imagen de IA" width="85%">   
 > </div>
+
+[![Main](https://img.shields.io/badge/🏠_Ir_a_Main-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juansuarezb/InteligenciaArtificial/blob/Main/README.md)
+[![Semana2](https://img.shields.io/badge/🏠_Ir_a_Semana2-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juansuarezb/InteligenciaArtificial/blob/Semana2/README.md)
