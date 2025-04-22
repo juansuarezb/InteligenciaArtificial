@@ -23,7 +23,7 @@
 
 
 > [!TIP]
-> **TAREA 2: en la biblioteca buscar los libros sobre IA (listado) (pedir el libro fisico y verificar el año de edicion, los capitulos del libro)** <br>
+> TAREA 2: en la biblioteca buscar <a href="https://juansuarezb.github.io/InteligenciaArtificial/"> los libros sobre IA (listado)</a> pedir el libro fisico y verificar el año de edicion, los capitulos del libro)
 
 
 > [!IMPORTANT]
