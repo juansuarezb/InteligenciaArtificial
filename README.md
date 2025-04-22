@@ -16,11 +16,16 @@
 
 > [!IMPORTANT]
 > <p><strong>Tarea: </strong>Ver el <a href="https://www.youtube.com/watch?v=5rvZBsueMoc"> video </a> completo e identificar que tecnica de ia se esta implementando en cada ejemplo</p><br>
-> <p><strong>Caso1: Watson</strong></p>
 > <figure>
-> <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/watson.avif" alt="imagenWatson"/>  
-> </figure>
-> 
+> <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/watson.avif" alt="imagenWatson" width="60%"/>  
+> </figure> <br>
+> <figcaption><strong>Caso1: Watson</strong></figcaption>
+> <section>
+> <figure>
+>  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/watson.avif" alt="imagenCaso2" width:"40%"/>
+> </figure> <br>
+> <figcaption><strong>Caso2: </strong></figcaption>  
+> </section>
 
 
 [![Semana1](https://img.shields.io/badge/🏠_Volver_a_Semana1-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juansuarezb/InteligenciaArtificial/blob/Semana1/README.md)
