@@ -129,9 +129,45 @@
 > ## CLASE 4
 > ## 23/04/2025
 > <section>
-> <h1>Disciplinas</h1>
+> <h1>Arbol de IA </h1>  
+> <h2>Disciplinas </h2>
+> <ol>
+> <li><strong>Filosofia</strong></li>
+> <li><strong>Matematicas</strong></li>
+> <li><strong>Neurologia</strong></li> 
+> <li><strong>Psicologia<strong></li> 
+> <li><strong>Estadistica</strong></li>
+> <li><strong>Computación</strong></li>
+> <li><strong>Robotica</strong></li>
+> <li><strong>Bologia</strong></li>
+> <li><strong>Linguistica</strong></li>
+> <li><strong>Sociologia</strong></li>
+> <li><strong>Cognicion Humana</strong></li>     
+> </ol>
+> <h2>Áreas (técnicas)</h2>  
+> <ol>
+> <li><strong>Sistemas Expertos: </strong> El conocimiento de un profesional se lo pasamos a una computadora.</li>
+> <li><strong>Visión por Computador: </strong> </li>
+> <li><strong>Robots autónomos:</strong></li>
+> <li><strong>Lógica Difusa: </strong> Va desde la verdad hasta la falsedad (Incertidumbre)</li>
+> <li><strong>Redes neuronales: </strong></li>
+> <li><strong>Agentes inteligentes: </strong></li>
+> <li><strong>Procesamiento Natural del Lenguaje: </strong></li>
+> <li><strong>Reconocimiento de voz: </strong></li>
+> <li><strong>Aprendizaje automático: </strong></li>
+> <li><strong>Algoritmos genéticos: </strong></li>
+> <li><strong>Sistemas de recomendación: </strong></li>
+> <li><strong>Realidad virtual y aumentada: </strong></li>
+> <li><strong>Videojuegos: </strong></li>
+> <li><strong>Planificación: </strong></li>
+> <li><strong>Mineria de Datos: </strong></li>
+> <li><strong>Redes Bayesianas: </strong></li>
+> <li><strong>Ontologías: </strong></li>
+> </ol>  
 > </section>
 
+> [!IMPORTANT]
+> <strong>Tarea: Investigar que IA tiene pacman (tecnica de ia)</strong>
 
 
 
