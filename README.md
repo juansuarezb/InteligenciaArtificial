@@ -24,7 +24,8 @@
 > <figure>
 > <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/imageCaso2.avif" alt="imagenCaso2" width="60%"/>
 > </figure> <br>
-> <figcaption><strong>Caso2: Carros Autónomos</strong></figcaption>  
+> <figcaption><strong>Caso2: Carros Autónomos</strong></figcaption>
+> <p>Aprende a crear un simulador de un autoautonomo en javascript <a href="https://www.youtube.com/watch?v=Rs_rAxEsAvI">aquí.</a></p>  
 > </section>
 > <section>
 > <h3>Aprendizaje Automático</h3>
