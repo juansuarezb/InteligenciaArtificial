@@ -26,7 +26,14 @@
 > </figure> <br>
 > <figcaption><strong>Caso2: Carros Autónomos</strong></figcaption>  
 > </section>
-
+> <section>
+> <h3>Aprendizaje Automático</h3>
+> <p>En el aprendizaje automatico una computadora analiza datos, encuentra patrones y utiliza estos patrones para encontrar la mejor ruta hacia un objetivo</p>
+> <figure>
+> <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/ajedrez.avif" alt="imagenAjedrez" width="60%"/>  
+> </figure> <br>
+> <figcaption><strong>Caso3: El enfrentamiento entre Garry Kasparov y Deep Blue</strong></figcaption>  
+> </section>
 
 [![Semana1](https://img.shields.io/badge/🏠_Volver_a_Semana1-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juansuarezb/InteligenciaArtificial/blob/Semana1/README.md)
 
