@@ -42,7 +42,11 @@
 > <figure>
 >  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/SpaceInvaders.avif" alt="DeepMind vs SpaceInvaders" width="60%"/>
 > </figure> <br>
-> <figcaption><strong>Ia de Google DeepMind aprendiendo a jugar SpaceInvaders</strong></figcaption>
+> <figcaption><strong> 2013 - Ia de Google DeepMind aprendiendo a jugar SpaceInvaders</strong></figcaption>
+> <figure>
+>  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/Go.avif" alt="DeepMind vs SpaceInvaders" width="60%"/>
+> </figure> <br>
+> <figcaption><strong> 2017 - (AlphaGo) La misma técnica es utilizada para un juego muy complicado (GO)</strong></figcaption>
 > </section>
 
 [![Semana1](https://img.shields.io/badge/🏠_Volver_a_Semana1-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juansuarezb/InteligenciaArtificial/blob/Semana1/README.md)
