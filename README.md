@@ -2,7 +2,7 @@
 > ## CLASE 3
 > ## 22/04/2025
 
-> [!TIP]
+> [!NOTE]
 > **¿Que es inteligencia?** <br>
 > Inteligencia : Capacidad de aprender, razonar y resolver problemas. <br>
 > **¿Que es la ia?** <br>
@@ -16,7 +16,7 @@
 > Capaz de razonar, planear, aprender, comprender emociones. <br>
 > Aún no existe en la práctica.
 
-> [!NOTE]
+> [!TIP]
 > | Tipo IA | Descripción |
 > |------------|-----------|
 > | **IaGeneral(IAG)** | Ciencia ficción, puede ocuparse de cualquier tarea en general. |
@@ -26,11 +26,11 @@
 
 > [!IMPORTANT]
 > <p><strong>Tarea: </strong>Ver el <a href="https://www.youtube.com/watch?v=5rvZBsueMoc"> video </a> completo e identificar que tecnica de ia se esta implementando en cada ejemplo</p><br>
-> <sectipn>
+> <section>
 > <figure>
 > <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/ajedrez.avif" alt="imagenAjedrez" width="60%"/>  
 > </figure> <br>
-> <figcaption><strong>Caso3: El enfrentamiento entre Garry Kasparov y Deep Blue</strong></figcaption>
+> <figcaption><strong>Caso1: El enfrentamiento entre Garry Kasparov y Deep Blue</strong></figcaption>
 > <ol><a href="https://stanford.edu/~cpiech/cs221/apps/deepBlue.html"><strong>Técnicas utilizadas: </strong></a>
 >    <li><details><summary><strong>Tree Search</strong></summary>
 >     </details></li>
@@ -41,18 +41,24 @@
 >    </details></li>  
 > </ol>
 > </section>
-
-  
 > <section>
 > <figure>
 > <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/watson.avif" alt="imagenWatson" width="60%"/>  
 > </figure> <br>
-> <figcaption><strong>Caso1: Watson</strong></figcaption>
+
+> [!IMPORTANT]  
+> <figcaption><strong>Caso2: Watson</strong></figcaption>
+> <p>Se utilizan algunas técnicas avanzadas de ia como: </p>
+>  <ul>
+> <li><strong>Procesamiento de lenguaje natural (NLP)</strong></li>
+> <li><strong>Machine learning</strong></li>
+> <li><strong>Deep learning</strong></li>    
+> </ul>  
 > <section>
 > <figure>
 > <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/imageCaso2.avif" alt="imagenCaso2" width="60%"/>
 > </figure> <br>
-> <figcaption><strong>Caso2: Carros Autónomos</strong></figcaption>
+> <figcaption><strong>Caso3: Carros Autónomos</strong></figcaption>
 > <p>La preocupación de utilizar estas tecnologías se basa en el instinto y algunas son: </p>
 > <ul>
 > <li>El auto ve las cosas como yo veo?</li>
@@ -65,28 +71,28 @@
 
 > [!NOTE]
 > <p>Los autos autónomos requieren de una combincación de diversos tipos de IA</p>
+> <section>
 > <ul>
 > <li><strong>Búsqueda y planificación:</strong> Para hallar la ruta más conveniente de A->B </li>
 > <li><strong>Toma de decisiones en situaciones de incertidubmre</strong></li>
 > <li><strong>Visión mediante ordenador</strong></li>  
 >  </ul>
-
-> [!NOTE]
 > <p>Muchos problemas pueden formularse como <strong><em>problemas de búsqueda</em></strong></p>
 > <p>Para ello se <strong>plantean las opciones alternativas y sus consecuencias</strong></p>
-
-> [!TIP]
-> <section>
 > <h3>Aprendizaje Automático</h3>
-> <p>En el aprendizaje automatico una computadora analiza datos, encuentra patrones y utiliza estos patrones para encontrar la mejor ruta hacia un objetivo</p>
+> <p>En el aprendizaje automatico una computadora analiza datos, encuentra patrones y utiliza estos patrones para encontrar la mejor ruta hacia un objetivo</p>  
+> </section>
+
+> [!IMPORTANT]
+> <section>
 > <figure>
 > <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/recomendacion.avif" alt="imagenAjedrez" width="60%"/> 
 > </figure> <br>
-
-> [!NOTE]
-> <p><strong>Burbujas de filtro</strong></p>
-  
 > <figcaption><strong>Caso 4: Ia de recomendación de canciones de Spotify</strong></figcaption> <br>
+> </section>  
+
+> [!IMPORTANT]
+> <p><strong>Burbujas de filtro</strong></p>
 > <figure>
 >  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/SpaceInvaders.avif" alt="DeepMind vs SpaceInvaders" width="60%"/>
 > </figure> <br>  
@@ -99,6 +105,8 @@
 > <figure>
 >  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/Go.avif" alt="DeepMind vs SpaceInvaders" width="60%"/>
 > </figure> <br>
+
+> [!IMPORTANT]
 > <figcaption><strong> 2017 - (AlphaGo Cero) La misma técnica es utilizada para un juego muy complicado (GO)</strong></figcaption>
 > <p>Esta ia aprendió a jugar Go consigo mismo de la manera más humana posible (prueba-error) </p>  
 > </section>
@@ -120,6 +128,11 @@
 > [!IMPORTANT]
 > ## CLASE 4
 > ## 23/04/2025
+
+
+
+
+
 
 
 [![Semana1](https://img.shields.io/badge/🏠_Volver_a_Semana1-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juansuarezb/InteligenciaArtificial/blob/Semana1/README.md)
