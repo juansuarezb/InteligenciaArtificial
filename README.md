@@ -34,6 +34,12 @@
 > </figure> <br>
 > <figcaption><strong>Caso3: El enfrentamiento entre Garry Kasparov y Deep Blue</strong></figcaption>  
 > </section>
+> <section>
+> <figure>
+> <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/recomendacion.avif" alt="imagenAjedrez" width="60%"/> 
+> </figure> <br>
+> <figcaption><strong>Caso 4: Ia de recomendación de canciones de Spotify</strong></figcaption>
+> </section>
 
 [![Semana1](https://img.shields.io/badge/🏠_Volver_a_Semana1-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juansuarezb/InteligenciaArtificial/blob/Semana1/README.md)
 
