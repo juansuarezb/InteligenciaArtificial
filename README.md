@@ -17,6 +17,18 @@
 > [!IMPORTANT]
 > <p><strong>Tarea: </strong>Ver el <a href="https://www.youtube.com/watch?v=5rvZBsueMoc"> video </a> completo e identificar que tecnica de ia se esta implementando en cada ejemplo</p><br>
 > <figure>
+> <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/ajedrez.avif" alt="imagenAjedrez" width="60%"/>  
+> </figure> <br>
+> <figcaption><strong>Caso3: El enfrentamiento entre Garry Kasparov y Deep Blue</strong></figcaption>
+> <ol><a href="https://stanford.edu/~cpiech/cs221/apps/deepBlue.html"><strong>Técnicas utilizadas: </strong></a>
+>    <li><strong>Tree Search</strong></li>
+>    <li><strong>The Evaluation Function</strong></li>
+>    <li><strong>The Minimax Algorithm</strong></li>
+>    <li><strong>Heuristics</strong></li>  
+> </ol>
+> </section>
+> <section>
+> <figure>
 > <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/watson.avif" alt="imagenWatson" width="60%"/>  
 > </figure> <br>
 > <figcaption><strong>Caso1: Watson</strong></figcaption>
@@ -32,30 +44,33 @@
 > </ul>
 > <p>El auto debe tener una percepión (las cosas que ve) y averigua cuales son objetos, carriles, etc. Tambíen, una capacidad de predicción (como se mueven los objetos) finalmente, en base a estos 2 puntos una planificación (a donde tiene que ir)</p>
 > <p>El <strong>Aprendizaje Profundo </strong> ayuda al auto a entender los elementos externos (ej. Niños jugando con una pelota al costado).</p>  
-> <p>Aprende a crear un simulador de un autoautonomo en javascript <a href="https://www.youtube.com/watch?v=Rs_rAxEsAvI">aquí.</a></p>  
+> <p>Aprende a crear un simulador de un autoautonomo en javascript <a href="https://www.youtube.com/watch?v=Rs_rAxEsAvI">aquí.</a></p>
 > </section>
+
+> [!NOTE]
+> <p>Los autos autónomos requieren de una combincación de diversos tipos de IA</p>
+> <ul>
+> <li><strong>Búsqueda y planificación:</strong> Para hallar la ruta más conveniente de A->B </li>
+> <li><strong>Toma de decisiones en situaciones de incertidubmre</strong></li>
+> <li><strong>Visión mediante ordenador</strong></li>  
+>  </ul>
+> 
+
+> [!TIP]
 > <section>
 > <h3>Aprendizaje Automático</h3>
 > <p>En el aprendizaje automatico una computadora analiza datos, encuentra patrones y utiliza estos patrones para encontrar la mejor ruta hacia un objetivo</p>
 > <figure>
-> <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/ajedrez.avif" alt="imagenAjedrez" width="60%"/>  
-> </figure> <br>
-> <figcaption><strong>Caso3: El enfrentamiento entre Garry Kasparov y Deep Blue</strong></figcaption>
-> <ol><a href="https://stanford.edu/~cpiech/cs221/apps/deepBlue.html"><strong>Técnicas utilizadas: </strong></a>
->    <li><strong>Tree Search</strong></li>
->    <li><strong>The Evaluation Function</strong></li>
->    <li><strong>The Minimax Algorithm</strong></li>
->    <li><strong>Heuristics</strong></li>  
-> </ol>
-> </section>
-> <section>
-> <figure>
 > <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/recomendacion.avif" alt="imagenAjedrez" width="60%"/> 
 > </figure> <br>
+
+> [!NOTE]
+> <p><strong>Burbujas de filtro</strong></p>
+  
 > <figcaption><strong>Caso 4: Ia de recomendación de canciones de Spotify</strong></figcaption> <br>
 > <figure>
 >  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/SpaceInvaders.avif" alt="DeepMind vs SpaceInvaders" width="60%"/>
-> </figure> <br>
+> </figure> <br>  
 > <figcaption><strong> 2013 - Ia de Google DeepMind aprendiendo a jugar SpaceInvaders</strong></figcaption> <br>
 > <h4>Deep Q-learning</h4>
 > <p>Lo único que tiene a disposición el agente es un input de lo que ve la en la pantalla y así, se le ordenó maximizar el puntaje de la pantalla</p>
