@@ -26,6 +26,7 @@
 
 > [!IMPORTANT]
 > <p><strong>Tarea: </strong>Ver el <a href="https://www.youtube.com/watch?v=5rvZBsueMoc"> video </a> completo e identificar que tecnica de ia se esta implementando en cada ejemplo</p><br>
+> <sectipn>
 > <figure>
 > <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/ajedrez.avif" alt="imagenAjedrez" width="60%"/>  
 > </figure> <br>
@@ -35,9 +36,13 @@
 >     </details></li>
 >    <li><strong>The Evaluation Function</strong></li>
 >    <li><strong>The Minimax Algorithm</strong></li>
->    <li><strong>Heuristics</strong></li>  
+>    <li><details><summary><strong>Heuristics</strong></summary>
+>    <p>La <strong>Función heurística</strong> se utiliza para gestionar arboles de juegos gigantescos.</p>
+>    </details></li>  
 > </ol>
 > </section>
+
+  
 > <section>
 > <figure>
 > <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/watson.avif" alt="imagenWatson" width="60%"/>  
