@@ -8,11 +8,11 @@
 > **TAREA 1: INVESTIGAR SOBRE LOS CONCEPTOS DE:**  
 >   
 > **1. ¿QUÉ ES IA?**  
-> *La IA es una **disciplina científica**, con un conjunto de conceptos, problemas y métodos para resolver los problemas.*  
 > *Tiene como objetivo el crear procesos de la mente y su conexión con el cuerpo a través de la metáfora computacional.*
 > *La IA es la simulación de procesos de inteligencia humana por parte de máquinas especialmente con sistemas informaticos*
 
-> [!NOTE] 
+> [!NOTE]
+> *La IA es una **disciplina científica**, con un conjunto de conceptos, problemas y métodos para resolver los problemas.*   
 > *Habría que hacer una relación de las características de la IA: **AUTONOMÍA Y ADAPTABILIDAD**.*   
 > <div align="center">
 >   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana1/Imagenes/Imagen1.avif" alt="Imagen de IA" width="85%">   
@@ -20,16 +20,16 @@
 
 > [!TIP]
 > **2. ¿QUÉ ES EL MACHINE LEARNING (APRENDIZAJE AUTOMÁTICO)?** <br>
-> **DEFINICIÓN:** *Sistemas que van mejorando la manera en que ejecutan una tarea dada a medida que acumulan experiencia o datos.* <br> 
 > **Estudia como dotar a las maquinas de capacidad de aprendizaje. basandose en algoritmos capaces de identificar patrones en grandes BD y aprender de ellos.**
 
 > [!NOTE]
 > *El aprendizaje automático es un subcampo de la IA y hace posible obtener soluciones de IA adaptables.*  <br> 
-
+> **DEFINICIÓN:** *Sistemas que van mejorando la manera en que ejecutan una tarea dada a medida que acumulan experiencia o datos.* <br> 
 
 
 > [!TIP]
 > TAREA 2: en la biblioteca buscar <a href="https://juansuarezb.github.io/InteligenciaArtificial/"> los libros sobre IA (listado)</a> pedir el libro fisico y verificar el año de edicion, los capitulos del libro)
+> <p>Entra al repositorio de los libros disponibles de la FIS<a href="https://juansuarezb.github.io/InteligenciaArtificial/"><strong>Aquí.</strong></a></p>
 
 
 > [!IMPORTANT]
