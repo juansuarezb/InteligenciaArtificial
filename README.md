@@ -42,7 +42,7 @@
 > <figure>
 >  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/SpaceInvaders.avif" alt="DeepMind vs SpaceInvaders" width="60%"/>
 > </figure> <br>
-> <figcaption><strong> 2013 - Ia de Google DeepMind aprendiendo a jugar SpaceInvaders</strong></figcaption>
+> <figcaption><strong> 2013 - Ia de Google DeepMind aprendiendo a jugar SpaceInvaders</strong></figcaption> <br>
 > <figure>
 >  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/Go.avif" alt="DeepMind vs SpaceInvaders" width="60%"/>
 > </figure> <br>
