@@ -1,6 +1,8 @@
 > [!IMPORTANT]
 > ## CLASE 3
 > ## 22/04/2025
+
+> [!TIP]
 > **¿Que es inteligencia?** <br>
 > Inteligencia : Capacidad de aprender, razonar y resolver problemas. <br>
 > **¿Que es la ia?** <br>
@@ -14,6 +16,14 @@
 > Capaz de razonar, planear, aprender, comprender emociones. <br>
 > Aún no existe en la práctica.
 
+> [!NOTE]
+> | Tipo IA | Descripción |
+> |------------|-----------|
+> | **IaGeneral(IAG)** | Ciencia ficción, puede ocuparse de cualquier tarea en general. |
+> | **IaFuerte** | Equivaldria a una mente verdaderamente inteligente y consciente de si misma. |
+> | **IaEstrecha(Limitada)** | Es aquella que se ocupa de una sola tarea. | 
+> | **IaDebil** | Sistemas que muestran comportamientos inteligentes a pesar de ser computadoras. |
+
 > [!IMPORTANT]
 > <p><strong>Tarea: </strong>Ver el <a href="https://www.youtube.com/watch?v=5rvZBsueMoc"> video </a> completo e identificar que tecnica de ia se esta implementando en cada ejemplo</p><br>
 > <figure>
@@ -21,7 +31,8 @@
 > </figure> <br>
 > <figcaption><strong>Caso3: El enfrentamiento entre Garry Kasparov y Deep Blue</strong></figcaption>
 > <ol><a href="https://stanford.edu/~cpiech/cs221/apps/deepBlue.html"><strong>Técnicas utilizadas: </strong></a>
->    <li><strong>Tree Search</strong></li>
+>    <li><details><summary><strong>Tree Search</strong></summary>
+>     </details></li>
 >    <li><strong>The Evaluation Function</strong></li>
 >    <li><strong>The Minimax Algorithm</strong></li>
 >    <li><strong>Heuristics</strong></li>  
@@ -54,7 +65,10 @@
 > <li><strong>Toma de decisiones en situaciones de incertidubmre</strong></li>
 > <li><strong>Visión mediante ordenador</strong></li>  
 >  </ul>
-> 
+
+> [!NOTE]
+> <p>Muchos problemas pueden formularse como <strong><em>problemas de búsqueda</em></strong></p>
+> <p>Para ello se <strong>plantean las opciones alternativas y sus consecuencias</strong></p>
 
 > [!TIP]
 > <section>
