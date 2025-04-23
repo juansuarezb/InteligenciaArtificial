@@ -71,7 +71,16 @@
 > <section>
 > <figure>
 >   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/sawyer.avif" alt="robotSawyer" width="60%"/> 
-> </figure> 
+> </figure> <br>
+> <figcaption>Robot sawyer, Robot compañero de humanos en pequeñas fábricas de Boston.</figcaption>
+> <p>Sawyer aprende por demostración no por programación. Puede ser capacitado para diferentes tareas.</p>
+> <p>Se entrena al robot como se entrenaría a una persona.</p>  
+> </section>
+> <section>
+> <figure>
+>  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/bostonD.avif" alt="Robot BostonDynamics" width="60%"/>
+> </figure> <br>
+> <figcaption>El robot BostonDynamics </figcaption>  
 > </section>
 > [!IMPORTANT]
 > ## CLASE 4
