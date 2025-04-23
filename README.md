@@ -51,7 +51,9 @@
 > <figcaption><strong> 2013 - Ia de Google DeepMind aprendiendo a jugar SpaceInvaders</strong></figcaption> <br>
 > <h4>Deep Q-learning</h4>
 > <p>Lo único que tiene a disposición el agente es un input de lo que ve la en la pantalla y así, se le ordenó maximizar el puntaje de la pantalla</p>
-> <p>No hay un <strong>Dominion del conocimiento</strong> previo, (esto quiere decir que el algoritmo no entiende el concepto de bola ni lo que hacen los controles)</p>  
+> <p>No hay un <strong>Dominion del conocimiento</strong> previo, (esto quiere decir que el algoritmo no entiende el concepto de bola ni lo que hacen los controles)</p>
+> <p>Mira el código original del agente <a href="https://github.com/kuz/DeepMind-Atari-Deep-Q-Learner"> aquí.</a></p>
+> <p>Más información <a href="https://medium.com/@prmj2187/mastering-atari-with-deep-q-learning-6d8b2138491c"> aquí.</a></p>  
 > <figure>
 >  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/Go.avif" alt="DeepMind vs SpaceInvaders" width="60%"/>
 > </figure> <br>
