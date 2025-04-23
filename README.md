@@ -32,17 +32,26 @@
 > <figure>
 > <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/ajedrez.avif" alt="imagenAjedrez" width="60%"/>  
 > </figure> <br>
-> <figcaption><strong>Caso3: El enfrentamiento entre Garry Kasparov y Deep Blue</strong></figcaption>  
+> <figcaption><strong>Caso3: El enfrentamiento entre Garry Kasparov y Deep Blue</strong></figcaption>
+> <ol><a href="https://stanford.edu/~cpiech/cs221/apps/deepBlue.html"><strong>Técnicas utilizadas: </strong></a>
+>    <li><strong>Tree Search</strong></li>
+>    <li><strong>The Evaluation Function</strong></li>
+>    <li><strong>The Minimax Algorithm</strong></li>
+>    <li><strong>Heuristics</strong></li>  
+> </ol>
 > </section>
 > <section>
 > <figure>
 > <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/recomendacion.avif" alt="imagenAjedrez" width="60%"/> 
 > </figure> <br>
-> <figcaption><strong>Caso 4: Ia de recomendación de canciones de Spotify</strong></figcaption>
+> <figcaption><strong>Caso 4: Ia de recomendación de canciones de Spotify</strong></figcaption> <br>
 > <figure>
 >  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/SpaceInvaders.avif" alt="DeepMind vs SpaceInvaders" width="60%"/>
 > </figure> <br>
 > <figcaption><strong> 2013 - Ia de Google DeepMind aprendiendo a jugar SpaceInvaders</strong></figcaption> <br>
+> <h4>Deep Q-learning</h4>
+> <p>Lo único que tiene a disposición el agente es un input de lo que ve la en la pantalla y así, se le ordenó maximizar el puntaje de la pantalla</p>
+> <p>No hay un <strong>Dominion del conocimiento</strong> previo, (esto quiere decir que el algoritmo no entiende el concepto de bola ni lo que hacen los controles)</p>  
 > <figure>
 >  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/Go.avif" alt="DeepMind vs SpaceInvaders" width="60%"/>
 > </figure> <br>
