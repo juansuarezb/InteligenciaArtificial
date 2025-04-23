@@ -68,7 +68,11 @@
 > <figcaption><strong> 2017 - (AlphaGo Cero) La misma técnica es utilizada para un juego muy complicado (GO)</strong></figcaption>
 > <p>Esta ia aprendió a jugar Go consigo mismo de la manera más humana posible (prueba-error) </p>  
 > </section>
-
+> <section>
+> <figure>
+>   <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/sawyer.avif" alt="robotSawyer" width="60%"/> 
+> </figure> 
+> </section>
 > [!IMPORTANT]
 > ## CLASE 4
 > ## 23/04/2025
