@@ -4,7 +4,7 @@
 
 
             
-> [!TIP]
+> [!IMPORTANT]
 > **TAREA 1: INVESTIGAR SOBRE LOS CONCEPTOS DE:**  
 >   
 > **1. ¿QUÉ ES IA?**  
@@ -27,7 +27,7 @@
 > **DEFINICIÓN:** *Sistemas que van mejorando la manera en que ejecutan una tarea dada a medida que acumulan experiencia o datos.* <br> 
 
 
-> [!TIP]
+> [!IMPORTANT]
 > TAREA 2: en la biblioteca buscar <a href="https://juansuarezb.github.io/InteligenciaArtificial/"> los libros sobre IA (listado)</a> pedir el libro fisico y verificar el año de edicion, los capitulos del libro)
 > <p>Entra al repositorio de los libros disponibles de la FIS<a href="https://juansuarezb.github.io/InteligenciaArtificial/"><strong>Aquí.</strong></a></p>
 
