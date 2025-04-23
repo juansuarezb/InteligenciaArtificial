@@ -25,6 +25,13 @@
 > <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/imageCaso2.avif" alt="imagenCaso2" width="60%"/>
 > </figure> <br>
 > <figcaption><strong>Caso2: Carros Autónomos</strong></figcaption>
+> <p>La preocupación de utilizar estas tecnologías se basa en el instinto y algunas son: </p>
+> <ul>
+> <li>El auto ve las cosas como yo veo?</li>
+> <li>El auto actua de la forma en la que yo actuaria basado en las cosas que ve?</li>  
+> </ul>
+> <p>El auto debe tener una percepión (las cosas que ve) y averigua cuales son objetos, carriles, etc. Tambíen, una capacidad de predicción (como se mueven los objetos) finalmente, en base a estos 2 puntos una planificación (a donde tiene que ir)</p>
+> <p>El <strong>Aprendizaje Profundo </strong> ayuda al auto a entender los elementos externos (ej. Niños jugando con una pelota al costado).</p>  
 > <p>Aprende a crear un simulador de un autoautonomo en javascript <a href="https://www.youtube.com/watch?v=Rs_rAxEsAvI">aquí.</a></p>  
 > </section>
 > <section>
@@ -58,7 +65,8 @@
 > <figure>
 >  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/Go.avif" alt="DeepMind vs SpaceInvaders" width="60%"/>
 > </figure> <br>
-> <figcaption><strong> 2017 - (AlphaGo) La misma técnica es utilizada para un juego muy complicado (GO)</strong></figcaption>
+> <figcaption><strong> 2017 - (AlphaGo Cero) La misma técnica es utilizada para un juego muy complicado (GO)</strong></figcaption>
+> <p>Esta ia aprendió a jugar Go consigo mismo de la manera más humana posible (prueba-error) </p>  
 > </section>
 
 > [!IMPORTANT]
