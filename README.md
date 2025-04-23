@@ -41,7 +41,7 @@
 > <figcaption><strong>Caso 4: Ia de recomendación de canciones de Spotify</strong></figcaption>
 > <figure>
 >  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/SpaceInvaders.avif" alt="DeepMind vs SpaceInvaders" width="60%"/>
-> </figure>
+> </figure> <br>
 > <figcaption><strong>Ia de Google DeepMind aprendiendo a jugar SpaceInvaders</strong></figcaption>
 > </section>
 
