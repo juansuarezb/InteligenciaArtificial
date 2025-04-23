@@ -168,7 +168,7 @@
 
 > [!IMPORTANT]
 > <strong>Tarea: Investigar que IA tiene pacman (tecnica de ia)</strong>
-
+> <p>Hacer una diapositiva de maximo 4 slides</p>
 
 
 
