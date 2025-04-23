@@ -22,9 +22,9 @@
 > <figcaption><strong>Caso1: Watson</strong></figcaption>
 > <section>
 > <figure>
->  <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/watson.avif" alt="imagenCaso2" width:"40%"/>
+> <img src="https://github.com/juansuarezb/InteligenciaArtificial/raw/Semana2/Imagenes/imageCaso2.avif" alt="imagenCaso2" width="60%"/>
 > </figure> <br>
-> <figcaption><strong>Caso2: </strong></figcaption>  
+> <figcaption><strong>Caso2: Carros Autónomos</strong></figcaption>  
 > </section>
 
 
