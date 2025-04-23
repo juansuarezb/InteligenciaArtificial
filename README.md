@@ -60,6 +60,11 @@
 > <figcaption><strong> 2017 - (AlphaGo) La misma técnica es utilizada para un juego muy complicado (GO)</strong></figcaption>
 > </section>
 
+> [!IMPORTANT]
+> ## CLASE 4
+> ## 23/04/2025
+
+
 [![Semana1](https://img.shields.io/badge/🏠_Volver_a_Semana1-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juansuarezb/InteligenciaArtificial/blob/Semana1/README.md)
 
 [![Semana3](https://img.shields.io/badge/🏠_Ir_a_Semana3-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juansuarezb/InteligenciaArtificial/blob/Semana3/README.md)
