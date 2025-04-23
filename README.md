@@ -82,6 +82,7 @@
 > </figure> <br>
 > <figcaption>El robot BostonDynamics </figcaption>  
 > </section>
+
 > [!IMPORTANT]
 > ## CLASE 4
 > ## 23/04/2025
