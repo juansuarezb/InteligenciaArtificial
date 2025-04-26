@@ -3,6 +3,8 @@
   <h1>Inteligencia Artificial y Aprendizaje Automático 2025-A</h1>
   <h2>Ingeniería de software (GR1)</h2>
 
+  https://juansuarezb.github.io/InteligenciaArtificial/slide2.html
+
   <!-- Badges -->
   <p>
     <a href="https://github.com/juansuarezb/InteligenciaArtificial/stargazers">
