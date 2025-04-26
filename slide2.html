@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Índice - IA en Pac-Man</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #FF0;
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(255, 255, 0, 0.1) 1px, transparent 1px),
+                radial-gradient(circle at 90% 30%, rgba(255, 255, 0, 0.1) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 40px;
+            
+            position: relative;
+        }
+        h1::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, #FF0, transparent);
+            margin-top: 10px;
+        }
+        .menu-container {
+            border: 4px dashed #FF0;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .menu-item {
+            font-size: 1.2em;
+            margin: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+            color: #FFF;
+        }
+        .menu-item:hover {
+            color: #FF0;
+            transform: scale(1.1);
+            text-shadow: 0 0 15px #FF0;
+        }
+        .menu-item::before {
+            content: "•";
+            position: absolute;
+            left: -20px;
+            opacity: 0;
+            transition: all 0.3s;
+            color: #FF0;
+        }
+        .menu-item:hover::before {
+            opacity: 1;
+            left: -15px;
+        }
+        .pacman-icon {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: #FF0;
+            border-radius: 50%;
+            clip-path: polygon(0 0, 100% 50%, 0 100%);
+            animation: chew 0.7s infinite alternate;
+            top: 50%;
+            left: -50px;
+            opacity: 0;
+            transition: all 0.5s;
+        }
+        .menu-item:hover .pacman-icon {
+            opacity: 1;
+            left: -40px;
+        }
+        @keyframes chew {
+            0% { clip-path: polygon(0 0, 100% 50%, 0 100%); }
+            50% { clip-path: polygon(0 20%, 100% 50%, 0 80%); }
+        }
+
+        .back-button {
+            background-color: yellow;
+            color: black;
+            padding: 10px 20px;
+            font-family: 'Press Start 2P', cursive;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 40px;
+            font-size: 0.7em;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>CONTENIDO</h1>
+        <div class="menu-item" onclick="window.location.href='slide3.html'">
+            1. PERSONAJES Y COMPORTAMIENTO
+            <div class="pacman-icon"></div>
+        </div>
+        <div class="menu-item" onclick="window.location.href='#'">
+            2. TÉCNICAS DE PERSECUCIÓN
+            <div class="pacman-icon"></div>
+        </div>
+    </div>
+
+    <button class="back-button" onclick="goBack()">Volver</button>
+
+    <script>
+        function goBack() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
