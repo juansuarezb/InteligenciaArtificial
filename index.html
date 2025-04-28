@@ -1,129 +1,319 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <title>Métodos de I.A. - Pac-Man</title>
     <style>
         body {
-            background-color: black;
-            color: yellow;
+            background-color: #000;
+            color: #FF0;
             font-family: 'Press Start 2P', cursive;
             text-align: center;
-            padding-top: 50px;
-            min-height: 100vh;
             margin: 0;
+            padding: 0;
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;
-        }
-       
-        h4 {
-            font-size: 1.5em;
-            margin: 15px 0;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(255, 255, 0, 0.1) 1px, transparent 1px),
+                radial-gradient(circle at 90% 30%, rgba(255, 255, 0, 0.1) 1px, transparent 1px);
+            background-size: 30px 30px;
+            overflow-x: hidden;
         }
 
-        h1, h3 {
-            font-size: 2.5em;
-            margin: 15px 0;
+        h1 {
+            font-size: 2em;
+            margin: 40px 20px 20px;
+            text-shadow: 0 0 10px #FF0;
+            position: relative;
         }
-        p {
-            font-size: 1em;
-            margin: 15px 0;
+
+        h1::after {
+            content: "";
+            display: block;
+            width: 80%;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, #FF0, transparent);
+            margin: 20px auto 0;
         }
-        .pacman {
+
+        .container-pacman {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
             margin: 30px 0;
-            position: relative; /* Para colocar el tooltip encima */
+            gap: 30px;
+            position: relative;
+            max-width: 900px;
         }
-        .pacman img {
+
+        .game-gif img {
             width: 300px;
             height: 220px;
-            cursor: pointer;
-        }
-        /* Tooltip inicial oculto */
-        .tooltip {
-            opacity: 0;
-            transition: opacity 0.5s ease;
-            position: absolute;
-            bottom: 110%;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: black;
-            color: yellow;
-            border: 2px solid yellow;
-            padding: 10px;
-            font-size: 0.7em;
-            white-space: nowrap;
-            z-index: 1;
+            border: 4px solid #FF0;
             border-radius: 5px;
+            box-shadow: 0 0 20px #FF0;
+        }
+
+        .personajes {
+            position: relative;
+            transform: rotate(-5deg);
+            transition: transform 0.3s;
+        }
+
+        .personajes:hover {
+            transform: rotate(0deg) scale(1.05);
+        }
+
+        .personajes img {
+            width: 200px;
+            height: auto;
+            border: 4px solid #FF0;
+            border-radius: 10px;
+            background-color: #000;
+            box-shadow: 0 0 15px #FF0;
+        }
+
+        .label-personajes {
+            position: absolute;
+            top: -20px;
+            right: -15px;
+            background-color: #000;
+            color: #FF0;
+            padding: 5px 10px;
             font-family: 'Press Start 2P', cursive;
-            pointer-events: none; /* No bloquea el hover */
+            font-size: 0.6em;
+            transform: rotate(10deg);
+            border: 2px solid #FF0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #FF0;
         }
-        /* Clase activa para mostrar el tooltip */
-        .tooltip.show {
-            opacity: 1;
-        }
+
         #start-button {
-            background-color: yellow;
-            color: black;
-            padding: 10px 20px;
+            background-color: #FF0;
+            color: #000;
+            padding: 15px 30px;
             font-family: 'Press Start 2P', cursive;
             cursor: pointer;
-            margin-top: 20px;
+            margin: 20px 0;
             border: none;
             border-radius: 5px;
             font-size: 1em;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            box-shadow: 0 0 0 2px #000, 0 0 0 4px #FF0;
+            position: relative;
+            overflow: hidden;
         }
-        .copyright {
-            font-size: 0.7em;
-            margin-top: 30px;
-            color: #cccccc;
+
+        #start-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px #FF0;
+            text-shadow: 0 0 10px #000;
         }
+
+        #start-button::after {
+            content: ">>";
+            position: absolute;
+            right: -20px;
+            opacity: 0;
+            transition: all 0.3s;
+        }
+
+        #start-button:hover::after {
+            right: 20px;
+            opacity: 1;
+        }
+
         footer {
-            margin-top: 30px;
+            margin-top: 40px;
             text-align: center;
+            width: 100%;
+            padding: 20px 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-top: 2px dashed #FF0;
         }
+
         footer img {
-            width: 35px;
+            width: 40px;
             filter: brightness(0) invert(1);
+            transition: transform 0.3s;
         }
+
+        footer img:hover {
+            transform: scale(1.2);
+        }
+
         footer h6 {
             font-size: 0.7em;
-            color: #cccccc;
-            margin-top: 10px;
+            color: #FF0;
+            margin-top: 15px;
+            text-shadow: 0 0 5px #FF0;
+        }
+
+        .bibliografia {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 3px dashed #FF0;
+            padding: 20px;
+            margin: 30px auto;
+            width: 80%;
+            max-width: 700px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.6em;
+            color: #FFF;
+            text-align: left;
+            position: relative;
+        }
+
+        .bibliografia::before, .bibliografia::after {
+            content: "◆";
+            position: absolute;
+            color: #FF0;
+            font-size: 1.5em;
+        }
+
+        .bibliografia::before {
+            top: -10px;
+            left: -10px;
+        }
+
+        .bibliografia::after {
+            bottom: -10px;
+            right: -10px;
+        }
+
+        .bibliografia h4 {
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 1em;
+            color: #FF0;
+            text-shadow: 0 0 5px #FF0;
+        }
+
+        .bibliografia ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .bibliografia ul li {
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .bibliografia ul li::before {
+            content: ">";
+            position: absolute;
+            left: 0;
+            color: #FF0;
+        }
+
+        .bibliografia a {
+            color: #0FF;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .bibliografia a:hover {
+            color: #FFF;
+            text-shadow: 0 0 10px #0FF;
+        }
+
+        /* Efecto de monedas flotantes */
+        .coin {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #FF0;
+            border-radius: 50%;
+            animation: float 5s infinite ease-in-out;
+            opacity: 0.6;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container-pacman {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .personajes {
+                transform: rotate(0deg);
+            }
+            
+            h1 {
+                font-size: 1.5em;
+            }
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
-<body>
-    
-    <h1>Métodos de I.A. detrás del juego de Pac-Man</h1>
 
-    <div class="pacman" onmouseover="showTooltip()" onmouseout="hideTooltip()">
-        <img src="https://media1.tenor.com/m/lbObw07b8FIAAAAC/pacman-pac.gif" alt="Pacman GIF">
-        <h4>Personajes:</h4> <br>
-        <img src="Imagenes/personajes.avif" alt="Personajes de Pac-Man">
-        
+<body>
+    <!-- Efecto de monedas -->
+    <div class="coin" style="top: 20%; left: 10%; animation-delay: 0s;"></div>
+    <div class="coin" style="top: 70%; left: 85%; animation-delay: 1s;"></div>
+    <div class="coin" style="top: 40%; left: 25%; animation-delay: 2s;"></div>
+    <div class="coin" style="top: 80%; left: 50%; animation-delay: 0.5s;"></div>
+
+    <h1>MÉTODOS DE I.A. DETRÁS DE PAC-MAN</h1>
+
+    <div class="container-pacman">
+        <div class="game-gif">
+            <img src="https://media1.tenor.com/m/lbObw07b8FIAAAAC/pacman-pac.gif" alt="Pacman GIF">
+        </div>
+        <div class="personajes">
+            <img src="Imagenes/personajes.avif" alt="Personajes de Pac-Man">
+            <div class="label-personajes">PERSONAJES</div>
+        </div>
     </div>
 
-    <button id="start-button" onclick="nextSlide()">PLAY</button>
+    <button id="start-button" onclick="nextSlide()">COMENZAR</button>
+
+    <audio id="start-sound" src="https://freesound.org/data/previews/341/341695_5260877-lq.mp3"></audio>
+
+    <footer>
+        <div class="bibliografia">
+            <h4>BIBLIOGRAFÍA</h4>
+            <ul>
+                <li><strong>[1]</strong> AI and Games, "The ghosts of Pac-Man," YouTube, 27 jul. 2018. <a href="https://www.youtube.com/watch?v=ataGotQ7ir8" target="_blank">https://www.youtube.com/watch?v=ataGotQ7ir8</a></li>
+                <li><strong>[2]</strong> AI and Games, "The ghosts of Pac-Man (otra versión)," YouTube, 27 jul. 2018. <a href="https://www.youtube.com/watch?v=dESzDDeue1U" target="_blank">https://www.youtube.com/watch?v=dESzDDeue1U</a></li>
+                <li><strong>[3]</strong> 3DJuegos, "El secreto de Pac-Man y su efectiva inteligencia artificial," 22 may. 2020. <a href="https://www.3djuegos.com/juegos/pac-man-world-rally/noticias/el-secreto-de-pacman-y-su-efectiva-inteligencia-artificial-un-caso-de-exito-200522-1877" target="_blank">https://www.3djuegos.com/articulo</a></li>
+            </ul>
+        </div>
+
+        <a href="https://github.com/juansuarezb" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+        </a>
+        <h6>© JUAN SUÁREZ </h6>
+    </footer>
 
     <script>
         function nextSlide() {
-            window.location.href = "slide2.html";
+            document.getElementById('start-sound').play();
+            setTimeout(function(){
+                window.location.href = "slide2.html";
+            }, 700);
         }
+
+        // Crear más monedas dinámicamente
+        document.addEventListener('DOMContentLoaded', function() {
+            for (let i = 0; i < 5; i++) {
+                const coin = document.createElement('div');
+                coin.className = 'coin';
+                coin.style.left = Math.random() * 90 + 5 + '%';
+                coin.style.top = Math.random() * 90 + 5 + '%';
+                coin.style.animationDelay = Math.random() * 3 + 's';
+                document.body.appendChild(coin);
+            }
+        });
     </script>
 </body>
-
-<footer>
-    <a href="https://github.com/juansuarezb" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
-    </a>
-    <h6>© Juan Suárez</h6>
-    <ul>
-        <li>[1] AI and Games. "The ghosts of Pac-Man (AI and Games)," YouTube, 27 de julio de 2018. [Video]. Disponible en: https://www.youtube.com/watch?v=ataGotQ7ir8. [Accedido: 28 de abril de 2025].</li>
-        <li>[2] AI and Games. "The ghosts of Pac-Man (AI and Games)," YouTube, 27 de julio de 2018. [Video]. Disponible en: https://www.youtube.com/watch?v=dESzDDeue1U. [Accedido: 28 de abril de 2025].</li>
-        <li>[3] "El secreto de Pac-Man y su efectiva inteligencia artificial: un caso de éxito," 3DJuegos, 22 de mayo de 2020. [En línea]. Disponible en: https://www.3djuegos.com/juegos/pac-man-world-rally/noticias/el-secreto-de-pacman-y-su-efectiva-inteligencia-artificial-un-caso-de-exito-200522-1877. [Accedido: 28 de abril de 2025].
-        </li>
-        </ul>
-</footer>
-        
-        
 </html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Métodos de I.A. - Pac-Man</title>
+    <style>
+        body {
+            background-color: black;
+            color: yellow;
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+            padding-top: 50px;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+        }
+
+        h1, h3, h4 {
+            margin: 15px 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h4 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1em;
+            margin: 15px 0;
+        }
+
+        /* Nueva sección de Pac-Man + Personajes */
+        .container-pacman {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 0;
+            gap: 50px;
+            position: relative;
+        }
+
+        .game-gif img {
+            width: 300px;
+            height: 220px;
+        }
+
+        .personajes {
+            position: relative;
+            transform: rotate(-10deg);
+        }
+
+        .personajes img {
+            width: 200px;
+            height: auto;
+            border: 2px solid yellow;
+            border-radius: 10px;
+            background-color: black;
+        }
+
+        .label-personajes {
+            position: absolute;
+            top: -30px;
+            right: -20px;
+            background-color: black;
+            color: yellow;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.6em;
+            transform: rotate(10deg);
+        }
+
+        #start-button {
+            background-color: yellow;
+            color: black;
+            padding: 10px 20px;
+            font-family: 'Press Start 2P', cursive;
+            cursor: pointer;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: transform 0.3s ease;
+        }
+
+        #start-button:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        footer img {
+            width: 35px;
+            filter: brightness(0) invert(1);
+        }
+
+        footer h6 {
+            font-size: 0.7em;
+            color: #cccccc;
+            margin-top: 10px;
+        }
+
+        /* Cuadro retro para Bibliografía */
+        .bibliografia {
+            background-color: black;
+            border: 2px solid yellow;
+            padding: 20px;
+            margin-top: 30px;
+            width: 80%;
+            max-width: 600px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.6em;
+            color: yellow;
+            text-align: left;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .bibliografia h4 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 1em;
+            color: yellow;
+        }
+
+        .bibliografia ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .bibliografia ul li {
+            margin-bottom: 8px;
+        }
+
+        .bibliografia a {
+            color: cyan;
+            text-decoration: underline;
+        }
+
+        .bibliografia a:hover {
+            color: white;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Métodos de I.A. detrás del juego de Pac-Man</h1>
+
+    <div class="container-pacman">
+        <div class="game-gif">
+            <img src="https://media1.tenor.com/m/lbObw07b8FIAAAAC/pacman-pac.gif" alt="Pacman GIF">
+        </div>
+        <div class="personajes">
+            <img src="Imagenes/personajes.avif" alt="Personajes de Pac-Man">
+            <div class="label-personajes">Personajes</div>
+        </div>
+    </div>
+
+    <button id="start-button" onclick="nextSlide()">PLAY</button>
+
+    <audio id="start-sound" src="https://freesound.org/data/previews/341/341695_5260877-lq.mp3"></audio>
+
+    <script>
+        function nextSlide() {
+            document.getElementById('start-sound').play();
+            setTimeout(function(){
+                window.location.href = "slide2.html";
+            }, 700); // Espera a que suene el audio
+        }
+    </script>
+
+    <footer>
+        <div class="bibliografia">
+            <h4>Bibliografía</h4>
+            <ul>
+                <li>[1] AI and Games, "The ghosts of Pac-Man," YouTube, 27 jul. 2018. <a href="https://www.youtube.com/watch?v=ataGotQ7ir8" target="_blank">Ver video</a>.</li>
+                <li>[2] AI and Games, "The ghosts of Pac-Man (otra versión)," YouTube, 27 jul. 2018. <a href="https://www.youtube.com/watch?v=dESzDDeue1U" target="_blank">Ver video</a>.</li>
+                <li>[3] 3DJuegos, "El secreto de Pac-Man y su efectiva inteligencia artificial," 22 may. 2020. <a href="https://www.3djuegos.com/juegos/pac-man-world-rally/noticias/el-secreto-de-pacman-y-su-efectiva-inteligencia-artificial-un-caso-de-exito-200522-1877" target="_blank">Leer artículo</a>.</li>
+            </ul>
+        </div>
+
+        <a href="https://github.com/juansuarezb" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+        </a>
+        <h6>© Juan Suárez</h6>
+    </footer>
+
+</body>
+</html>
