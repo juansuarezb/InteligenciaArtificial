@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <style>
         body {
@@ -20,7 +20,7 @@
             margin: 15px 0;
         }
 
-        h1, h3{
+        h1, h3 {
             font-size: 2.5em;
             margin: 15px 0;
         }
@@ -30,10 +30,35 @@
         }
         .pacman {
             margin: 30px 0;
+            position: relative; /* Para colocar el tooltip encima */
         }
         .pacman img {
             width: 300px;
             height: 220px;
+            cursor: pointer;
+        }
+        /* Tooltip inicial oculto */
+        .tooltip {
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            position: absolute;
+            bottom: 110%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: black;
+            color: yellow;
+            border: 2px solid yellow;
+            padding: 10px;
+            font-size: 0.7em;
+            white-space: nowrap;
+            z-index: 1;
+            border-radius: 5px;
+            font-family: 'Press Start 2P', cursive;
+            pointer-events: none; /* No bloquea el hover */
+        }
+        /* Clase activa para mostrar el tooltip */
+        .tooltip.show {
+            opacity: 1;
         }
         #start-button {
             background-color: yellow;
@@ -51,32 +76,54 @@
             margin-top: 30px;
             color: #cccccc;
         }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+        }
+        footer img {
+            width: 35px;
+            filter: brightness(0) invert(1);
+        }
+        footer h6 {
+            font-size: 0.7em;
+            color: #cccccc;
+            margin-top: 10px;
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h4>Inteligencia Artificial</h4>
-    <h4>& Aprendizaje Automático</h4>
+    
+    <h1>Métodos de I.A. detrás del juego de Pac-Man</h1>
 
-    <div class="pacman">
+    <div class="pacman" onmouseover="showTooltip()" onmouseout="hideTooltip()">
         <img src="https://media1.tenor.com/m/lbObw07b8FIAAAAC/pacman-pac.gif" alt="Pacman GIF">
+        <h4>Personajes:</h4> <br>
+        <img src="Imagenes/personajes.avif" alt="Personajes de Pac-Man">
+        
     </div>
 
-    <h5> Técnica de IA detrás de los fantasmas de Pac-Man</h5>
-    <h1>PUSH START</h1>
     <button id="start-button" onclick="nextSlide()">PLAY</button>
-    <br><br><br>
-    <a href="https://github.com/juansuarezb" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" style="width: 50px; filter: brightness(0) invert(1);">
-    </a>
-    <h5>© Juan Suárez </h5>
-   <script>
+
+    <script>
         function nextSlide() {
             window.location.href = "slide2.html";
         }
     </script>
 </body>
+
 <footer>
-    
+    <a href="https://github.com/juansuarezb" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+    </a>
+    <h6>© Juan Suárez</h6>
+    <ul>
+        <li>[1] AI and Games. "The ghosts of Pac-Man (AI and Games)," YouTube, 27 de julio de 2018. [Video]. Disponible en: https://www.youtube.com/watch?v=ataGotQ7ir8. [Accedido: 28 de abril de 2025].</li>
+        <li>[2] AI and Games. "The ghosts of Pac-Man (AI and Games)," YouTube, 27 de julio de 2018. [Video]. Disponible en: https://www.youtube.com/watch?v=dESzDDeue1U. [Accedido: 28 de abril de 2025].</li>
+        <li>[3] "El secreto de Pac-Man y su efectiva inteligencia artificial: un caso de éxito," 3DJuegos, 22 de mayo de 2020. [En línea]. Disponible en: https://www.3djuegos.com/juegos/pac-man-world-rally/noticias/el-secreto-de-pacman-y-su-efectiva-inteligencia-artificial-un-caso-de-exito-200522-1877. [Accedido: 28 de abril de 2025].
+        </li>
+        </ul>
 </footer>
+        
+        
 </html>

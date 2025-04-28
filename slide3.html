@@ -22,8 +22,9 @@
             margin-bottom: 20px;
         }
         p {
-            font-size: 1em;
-            margin: 20px;
+            font-size: 0.8em;
+            margin: 10px;
+            text-align: left;
         }
         img {
             max-width: 300px;
@@ -45,11 +46,20 @@
 </head>
 <body>
 
-    <h1>Personajes de Pac-Man</h1> 
-    <img src="Imagenes/personajes.avif" alt="Personajes de Pac-Man">
+    <h1>Estados de comportamiento de los fantasmas</h1> 
+    
+    <p>> Tenemos 4 estados de los fanstasmas:</p>
+    <ul>
+        <li>Persecusión (Chase)</li>
+        <li>Dispersión (Scatter)</li>
+        <li>Asustado (Frightened)</li>
+        <li>Capturado (Eaten)</li>
+    </ul>
 
     <button class="back-button" onclick="goBack()">Volver</button>
     <button class="back-button" onclick="goBack2()">Principal</button>
+    
+
 
     <script>
         function goBack() {
